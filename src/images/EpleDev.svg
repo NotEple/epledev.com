@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.22259,-2.37522e-17,2.37476e-17,-1.41627,-91.2519,653.098)">
+        <text x="88.819px" y="318.709px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:268.149px;fill:rgb(102,253,241);">{      }</text>
+    </g>
+    <g transform="matrix(2.73763,0,0,2.73763,-1958.06,-273.177)">
+        <g transform="matrix(1.00019,0,0,1,-0.145706,0)">
+            <text x="759.504px" y="197.594px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:74.322px;fill:rgb(102,253,241);">E<tspan x="811.688px 863.873px 911.885px " y="197.594px 197.594px 197.594px ">PLE</tspan></text>
+        </g>
+        <g transform="matrix(1.00019,0,0,1,-0.149926,0)">
+            <text x="781.463px" y="274.348px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:74.322px;fill:rgb(102,253,241);">D<tspan x="837.749px 889.933px " y="274.348px 274.348px ">EV</tspan></text>
+        </g>
+    </g>
+</svg>
