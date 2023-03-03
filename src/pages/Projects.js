@@ -21,11 +21,11 @@ export default function Projects() {
               looked overt it a couple of times.
             </p>
             <iframe
-              src="https://holidaze.epledev.com"
+              src="https://holidazeresort.netlify.app/"
               height="600"
               title="holidaze"></iframe>
-            <a href="https://holidaze.epledev.com">Proceed to website</a>
-            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-EpleWasTaken/tree/main/holidaze-website">
+            <a href="https://holidazeresort.netlify.app/">Proceed to website</a>
+            <a href="https://github.com/EpleWasTaken/holidaze">
               GitHub Repository
             </a>
           </details>
