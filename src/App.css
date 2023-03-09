@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  scroll-padding: 170px;
 }
 
 html {
@@ -33,6 +34,17 @@ body {
   text-align: left;
 }
 
+.container:nth-child(2) {
+}
+
+.container:nth-child(3) {
+}
+
+.container:nth-child(4) {
+  padding-top: 200px;
+  height: 100vh;
+}
+
 .content__container {
   width: 100%;
   display: flex;
@@ -51,6 +63,9 @@ nav {
   align-items: center;
   height: 170px;
   width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: black;
 }
 
 .nav__link {

@@ -5,7 +5,7 @@ import linkedin from "../images/linkedin.svg";
 
 export default function Contact() {
   return (
-    <div className="container">
+    <div className="container contact" id="contact">
       <h2>Contact</h2>
       <p className="info_text">
         I would prefer you to contact me on either Discord, Twitter or LinkedIn.

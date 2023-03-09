@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 export default function Projects() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="projects">
         <h1 className="projects_header">Projects</h1>
         <p className="projects_paragraph">
           All of the projects below is the best looking websites I've made. They
@@ -157,7 +157,6 @@ export default function Projects() {
           </summary>
         </section>
       </div>
-      <Footer />
     </>
   );
 }

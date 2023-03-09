@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Pfp from "../images/pfp.png";
 import Languages from "../images/languages.png";
 import HTML from "../images/html-hq.png";
@@ -11,7 +10,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="home">
         <section className="content__container">
           <h2 className="info_header">Who am I?</h2>
           <p className="info_text">
@@ -35,7 +34,7 @@ export default function Home() {
           <h2 className="info_header">Why Eple?</h2>
           <p className="info_text">
             Well, my parents didn't really bless me with an international name
-            the would be easy to pronounce in english. So I needed something
+            that would be easy to pronounce in english. So I needed something
             easier to use, so I had to come up with a screen name. At the time,
             apples happend to be my favourite fruit. So I chose that as my
             online alias. Creativity: 10/10
@@ -74,11 +73,7 @@ export default function Home() {
             But I am always open to learn new stuff C:
           </p>
         </section>
-        <Link to="/projects" className="portfolio_btn">
-          Portfolio
-        </Link>
       </div>
-      <Footer />
     </>
   );
 }
