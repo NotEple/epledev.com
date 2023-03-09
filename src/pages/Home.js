@@ -5,7 +5,6 @@ import HTML from "../images/html-hq.png";
 import CSS from "../images/css-hq.png";
 import JS from "../images/javascript-hq.png";
 import REACT from "../images/react.jpeg";
-import Footer from "../components/Footer";
 
 export default function Home() {
   return (
