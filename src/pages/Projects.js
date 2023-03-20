@@ -20,6 +20,26 @@ export default function Projects() {
               looked overt it a couple of times.
             </p>
             <iframe
+              src="http://weatherfyapp.netlify.app/"
+              height="600"
+              title="weatherfy"></iframe>
+            <a href="http://weatherfyapp.netlify.app/">Proceed to website</a>
+            <a href="https://github.com/EpleWasTaken/Weatherfy/tree/main/Weatherfy">
+              GitHub Repository
+            </a>
+          </details>
+        </section>
+
+        <section className="project_container">
+          <details>
+            <summary>Project Exam 2 / Holidaze</summary>
+            <p className="info_text">
+              Holidaze was my last project in school before the end of my
+              studies. I'm really happy with how it turned out, but there is a
+              lot of things I would change now that I am done with it and I've
+              looked overt it a couple of times.
+            </p>
+            <iframe
               src="https://holidazeresort.netlify.app/"
               height="600"
               title="holidaze"></iframe>
@@ -53,7 +73,6 @@ export default function Projects() {
             </a>
           </details>
         </section>
-
         <section className="project_container">
           <details>
             <summary>Semester Project 2 / Bergen Shoe Shop</summary>
