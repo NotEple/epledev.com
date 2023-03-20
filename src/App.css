@@ -97,7 +97,7 @@ ul {
 
 .logo {
   display: flex;
-  height: 150px;
+  height: 100px;
   cursor: pointer;
   transition: 0.25s ease-out;
 }
