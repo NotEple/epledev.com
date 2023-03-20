@@ -12,12 +12,9 @@ export default function Projects() {
 
         <section className="project_container">
           <details open>
-            <summary>Project Exam 2 / Holidaze</summary>
+            <summary>Personal Project / Weatherfy</summary>
             <p className="info_text">
-              Holidaze was my last project in school before the end of my
-              studies. I'm really happy with how it turned out, but there is a
-              lot of things I would change now that I am done with it and I've
-              looked overt it a couple of times.
+              This is my most recent personal prject of a weather app.
             </p>
             <iframe
               src="http://weatherfyapp.netlify.app/"
