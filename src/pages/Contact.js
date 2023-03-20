@@ -13,7 +13,7 @@ export default function Contact() {
           You can contact me on any of the social medias below.
         </p>
         <div className="container">
-          <ul className="footer_container">
+          <ul className="social_container">
             <li>
               <a
                 href="https://discordapp.com/users/195228341970796544"

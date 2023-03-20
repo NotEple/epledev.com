@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  scroll-padding: 150px;
+  scroll-padding: 75px;
 }
 
 html {
@@ -97,7 +97,7 @@ ul {
 
 .logo {
   display: flex;
-  height: 100px;
+  height: 75px;
   cursor: pointer;
   transition: 0.25s ease-out;
 }
@@ -274,12 +274,21 @@ footer {
   justify-content: space-between;
   color: white;
   width: 200px;
+  z-index: 1;
 }
 
 .footer_container > li {
   list-style: none;
   justify-content: center;
   display: flex;
+}
+
+.social_container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: white;
+  width: 200px;
 }
 
 #discord {
@@ -391,12 +400,17 @@ h2 {
 }
 
 @media screen and (min-width: 500px) {
+  * {
+    scroll-padding: 150px;
+  }
+
   nav {
     display: flex;
     font-family: DINpro regular;
     animation: load-content 750ms;
     justify-content: center;
     align-items: center;
+    height: 150px;
   }
 
   .nav__link {
@@ -425,6 +439,9 @@ h2 {
     align-items: center;
     width: 100%;
     margin: 0 auto;
+  }
+
+  .logo {
     height: 150px;
   }
 
