@@ -10,8 +10,7 @@ export default function Contact() {
       <div className="container contact" id="contact">
         <h2>Contact</h2>
         <p className="info_text">
-          I would prefer you to contact me on either Discord, Twitter or
-          LinkedIn.
+          You can contact me on any of the social medias below.
         </p>
         <div className="container">
           <ul className="footer_container">
@@ -25,7 +24,7 @@ export default function Contact() {
             </li>
             <li>
               <a
-                href="https://twitter.com/eplewastaken"
+                href="https://twitter.com/noteple"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img src={twitter} alt="twitter" id="twitter" />
@@ -41,12 +40,14 @@ export default function Contact() {
             </li>
           </ul>
         </div>
-        <p className="info_text">
+        <p className="email_container">
           If you don't want to use any on the above, here is my personal email:
         </p>
         <details aria-label="show email">
           <summary>Email:</summary>
-          <p className="info_text">epledev@outlook.com</p>
+          <a href="mailto:epledev@outlook.com" className="email">
+            epledev@outlook.com
+          </a>
         </details>
       </div>
       <Footer />

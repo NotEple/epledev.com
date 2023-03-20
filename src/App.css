@@ -38,10 +38,10 @@ body {
 }
 
 .container:nth-child(3) {
+  padding-bottom: 100px;
 }
 
 .container:nth-child(4) {
-  padding-top: 200px;
   height: 100vh;
 }
 
@@ -61,7 +61,6 @@ nav {
   animation: load-content 750ms;
   justify-content: center;
   align-items: center;
-  height: 170px;
   width: 100%;
   position: sticky;
   top: 0;
@@ -253,7 +252,6 @@ details > a {
 }
 
 details > a:hover {
-  border-radius: 0px 0px 10px 10px;
   text-decoration: underline;
   color: red;
 }
@@ -352,7 +350,8 @@ h2 {
   margin: 0 auto;
 }
 
-.info_text {
+.info_text,
+.email_container {
   font-family: DINpro regular;
   padding: 20px 0px 20px 0px;
   font-size: 1.2rem;
@@ -365,6 +364,8 @@ h2 {
 
 .info_text a:hover {
   color: red;
+}
+.email_container > a {
 }
 
 .portfolio_btn {
@@ -396,7 +397,6 @@ h2 {
     animation: load-content 750ms;
     justify-content: center;
     align-items: center;
-    height: 170px;
   }
 
   .nav__link {
